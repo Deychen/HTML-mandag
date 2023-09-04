@@ -84,6 +84,46 @@
     </ul>
 
 
+    <!-- lägga till olika typer av medieinnehåll, ex bild, ljud och video -->
+
+    <h3>Om koltrasten</h3>
+    <p>
+        Så låter Turdus Merula
+    </p>
+    <!-- ett ljudklipp från en koltrast -->
+    <!-- exempel på en relativ sökväg -->
+    <!-- OBS - för att få 'spelkontroller' till audio elementet anges attributet 'controls' -->
+    <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
+
+    <!-- exempel på en absolut sökväg -->
+    <audio src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Turdus_merula_-_Common_Blackbird_XC550669.mp3"
+        controls></audio>
+
+    <!-- filer som du inte själv äger kan inte utan vidare användas -->
+    <!-- ett bra sätt att organisera olika typer av gallerier (ljud, bild, video, grafik) -->
+    <!-- ... är att använda elementet figure, med tillhörande figcaption -->
+
+    <!-- ett galleri -->
+    <h4>Ljudfiler</h4>
+    <figure>
+        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
+        <figcaption><a
+                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît Van
+                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+            Commons</figcaption>
+    </figure>
+
+    <figure>
+        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
+        <figcaption><a
+                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît Van
+                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+            Commons</figcaption>
+    </figure>
+
+
+    <!-- en sida innehåll kan delas in i olika element som har betydelse - semantiska element -->
+    <!-- ex: header, footer, nav(navigation), article, main, aside ... -->
 
 
 </body>

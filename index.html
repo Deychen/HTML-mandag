@@ -83,49 +83,91 @@
         <li>Mesar</li>
     </ul>
 
+    <section>
 
-    <!-- lägga till olika typer av medieinnehåll, ex bild, ljud och video -->
+        <!-- lägga till olika typer av medieinnehåll, ex bild, ljud och video -->
 
-    <h3>Om koltrasten</h3>
-    <p>
-        Så låter Turdus Merula
-    </p>
-    <!-- ett ljudklipp från en koltrast -->
-    <!-- exempel på en relativ sökväg -->
-    <!-- OBS - för att få 'spelkontroller' till audio elementet anges attributet 'controls' -->
-    <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
-
-    <!-- exempel på en absolut sökväg -->
-    <audio src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Turdus_merula_-_Common_Blackbird_XC550669.mp3"
-        controls></audio>
-
-    <!-- filer som du inte själv äger kan inte utan vidare användas -->
-    <!-- ett bra sätt att organisera olika typer av gallerier (ljud, bild, video, grafik) -->
-    <!-- ... är att använda elementet figure, med tillhörande figcaption -->
-
-    <!-- ett galleri -->
-    <h4>Ljudfiler</h4>
-    <figure>
+        <h3>Om koltrasten</h3>
+        <p>
+            Så låter Turdus Merula
+        </p>
+        <!-- ett ljudklipp från en koltrast -->
+        <!-- exempel på en relativ sökväg -->
+        <!-- OBS - för att få 'spelkontroller' till audio elementet anges attributet 'controls' -->
         <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
-        <figcaption><a
-                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît Van
-                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons</figcaption>
-    </figure>
 
-    <figure>
-        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
-        <figcaption><a
-                href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît Van
-                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons</figcaption>
-    </figure>
+        <!-- exempel på en absolut sökväg -->
+        <audio src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Turdus_merula_-_Common_Blackbird_XC550669.mp3"
+            controls></audio>
 
+        <!-- filer som du inte själv äger kan inte utan vidare användas -->
+        <!-- ett bra sätt att organisera olika typer av gallerier (ljud, bild, video, grafik) -->
+        <!-- ... är att använda elementet figure, med tillhörande figcaption -->
+
+        <!-- ett galleri -->
+        <h4>Ljudfiler</h4>
+        <figure>
+            <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
+            <figcaption><a
+                    href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît
+                    Van
+                    Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons</figcaption>
+        </figure>
+
+        <figure>
+            <audio src="audio/Turdus_merula_-_Common_Blackbird_XC550669.mp3" controls></audio>
+            <figcaption><a
+                    href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC550669.mp3">Benoît
+                    Van
+                    Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons</figcaption>
+        </figure>
+
+    </section>
 
     <!-- en sida innehåll kan delas in i olika element som har betydelse - semantiska element -->
     <!-- ex: header, footer, nav(navigation), article, main, aside ... -->
 
+    <section>
+        <h4>Videofiler</h4>
+        <!-- ett filmklipp kan visas med elementet video -->
+        <figure>
+            <video src="https://upload.wikimedia.org/wikipedia/commons/3/30/Turdus_merula_fostering_-_no_sound.ogv"
+                width="300" controls></video>
+            <figcaption><a
+                    href="https://commons.wikimedia.org/wiki/File:Turdus_merula_fostering_-_no_sound.ogv">GeXeS</a>, <a
+                    href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+            </figcaption>
+        </figure>
+    </section>
 
+    <!-- lägg till minst ett videoklipp till, om du vill kan du ladda ner en lågupplöst klipp i din mapp -->
+
+    <section>
+        <h4>Örnen</h4>
+        <ul>
+            <li>Havsörn</li>
+            <li>Kungsörn</li>
+            <li>Ormörn</li>
+        </ul>
+        <p>Video på kungsörn</p>
+        <figure>
+            <video
+                src="https://upload.wikimedia.org/wikipedia/commons/7/72/Bald_Eagle_%28Haliaeetus_leucocephalus%29%2C_immature%2C_in_California.webm"
+                controls width="300"></video>
+                <p></p>
+            <figcap><a
+                    href="https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus),_immature,_in_California.webm">Bill
+                    Ward</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+            </figcap>
+        </figure>
+
+
+
+
+
+    </section>
 </body>
 
 </html>
